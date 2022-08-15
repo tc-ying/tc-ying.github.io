@@ -1,0 +1,53 @@
+# --- General options --- #
+
+locale : "en-US"
+repository : "tc-ying/tc-ying.github.io"
+google-site-verification: "google2bfe2e60079f96c6.html"
+
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url : "https://tc-ying.github.io"
+baseurl: ""
+
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: "Tc.Ying"
+
+# Short description of your site
+description: "Tc.Ying's minimalist personal one-pager."
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Background colour/image options --- #
+
+# By default, the navigation bar and footer have a light gray background, and the main page
+# has a white background. You can specify a different background colour or a background image
+# for the navigation bar, the main page, and the footer.
+# navbar-col: "orange"
+# navbar-img: "/img/bgimage.png"
+# footer-col: "blue"
+# footer-img: "/img/bgimage.png"
+# page-col: "#FF0000"
+# page-img: "/img/bgimage.png"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name : "Tc.Ying"
+  email: "ying@link.cuhk.edu.hk"
+  github: tc-ying

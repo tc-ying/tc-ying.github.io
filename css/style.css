@@ -1,0 +1,221 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 1.25em;
+  font-family: 'Noto Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 100%;
+  background-color: RGB(255, 255, 248)
+}
+
+div {
+  display: block;
+}
+
+#top-nav {
+  list-style-type: none;
+  margin: 0em;
+  padding-bottom: 0.5em;
+  overflow: hidden;
+}
+
+.nav-title {
+  display: block;
+  font-family: 'Noto Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 2.7em;
+  line-height: 115%;
+  text-align: left;
+  float: left;
+  padding-right: 1.2em;
+}
+
+.footer {
+  display: block;
+  padding-bottom: 1.6em;
+  clear: both;
+}
+
+#bottom-nav {
+  list-style-type: none;
+  padding-top: 5.2em;
+  padding-bottom: 0.8em;
+  font-size: 0.8em;
+  color: #888888;
+}
+
+#bottom-nav li {
+  float: left;
+  padding-right: 1.2em;
+}
+
+h2 {
+  font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 1.12em;
+  margin-top: 0.28em;
+  margin-bottom: 0.28em;
+  line-height: 120%;
+}
+
+#profile-picture {
+  width: 88px;
+  margin-bottom: 1.4em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: RGB(255, 255, 251);
+}
+
+#personal-profile {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.social-icons {
+  list-style-type: none;
+  max-width: 800px;
+  padding-bottom: 1.5em;
+}
+
+.icon {
+  float: left;
+  position: relative;
+  width: 88px;
+  height: 0;
+  margin: 4px 4px;
+  padding-bottom: 88px;
+}
+
+.icon a {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* -webkit-transition: all .2s ease-out; */
+  /* transition: all .2s ease-out; */
+}
+
+.icon a:hover {
+  background-color: #0D0D0C;
+  background-size: 0%;
+}
+
+.icon__name {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -7px;
+  color: #fff;
+  font-size: 0.80em;
+  text-align: center;
+  -webkit-transition: all .15s ease-out;
+  -moz-transition: all .15s ease-out;
+  -o-transition: all .15s ease-out;
+  transition: all .15s ease-out;
+  opacity: 0;
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+
+  will-change: transform;
+}
+
+.icon:hover .icon__name {
+  -webkit-transition: all .15s ease-out;
+  -moz-transition: all .15s ease-out;
+  -o-transition: all .15s ease-out;
+  transition: all .15s ease-out;
+  opacity: 1;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.icon--linkedin a {
+  background-color: #007fb1;
+  background-image: url("./../img/linkedin-logo.png");
+}
+
+.icon--github a {
+  background-color: #181717;
+  background-image: url("./../img/github-logo.png");
+}
+
+.icon--email a {
+  background-color: #80397B;
+  background-image: url("./../img/email-logo.png");
+}
+
+.icon--telegram a {
+  background-color: #2CA5E0;
+  background-image: url("./../img/telegram-logo.png");
+}
+
+.icon--twitter a {
+  background-color: #00aced;
+  background-image: url("./../img/twitter-logo.png");
+}
+
+.icon--medium a {
+  background-color: #1C1B1A;
+  background-image: url("./../img/medium-logo.png");
+}
+
+.icon--facebook a {
+  background-color: #3b5998;
+  background-image: url("./../img/facebook-logo.png");
+}
+
+.icon--google-plus a {
+  background-color: #DC4E41;
+  background-image: url("./../img/google-plus-logo.png");
+}
+
+.icon--anobii a {
+  background-color: #FFFFFF;
+  background-image: url("./../img/anobii-logo.png");
+}
+
+.icon--goodreads a {
+  background-color: #663300;
+  background-image: url("./../img/goodreads-logo.png");
+}
+
+.icon--spotify a {
+  background-color: #2BDE73;
+  background-image: url("./../img/spotify-logo.png");
+}
+
+.icon--imdb a {
+  background-color: #E6B91E;
+  background-image: url("./../img/simpleicons/imdb.svg");
+}
+
+.icon--slideshare a {
+  background-color: #00B0B9;
+  background-image: url("./../img/slideshare-logo.png");
+}
+
+.icon--coursera a {
+  background-color: #FFFFFF;
+  background-image: url("./../img/simpleicons/coursera.svg");
+}
+
+.icon--khanacademy a {
+  background-color: #9DB63B;
+  background-image: url("./../img/khanacademy-logo.png");
+}
+
+.icon--edx a {
+  background-color: #E24329;
+  background-image: url("./../img/edx-logo.png");
+}
+
+.icon--gitlab a {
+  background-color: #E24329;
+  background-image: url("./../img/gitlab-logo.png");
+}
